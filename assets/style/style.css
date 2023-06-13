@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    background-color: #1F6E8C;
+    padding: 10px 0;
+    margin: 0;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.jumbotron {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(33, 43, 43);
+    align-items: center;
+    padding: 100px ;
+    color: whitesmoke;
+    border-bottom: 3px solid salmon;
+}
+
+.jumbotron img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.jumbotron h2 {
+    margin: 10px 0;
+}
+
+.jumbotron h3 {
+    margin: 0px;
+    font-weight: lighter;
+    font-size: 1em;
+}
+
+main {
+    padding: 20px 120px;
+    overflow: auto;
+}
+
+p {
+    font-size: .9em;
+}
+
+table tr td {
+    padding: 7px 10px 7px 0;
+    border-bottom: 1px solid black;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-story {
+    padding: 0 30px 0 0;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+}
+
+footer h3 {
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}
+
+.sosial-media {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 25px 0;
+}
+
+.sosial-media i {
+    color: #1f2f4d;
+}
+
+.sosial-media i:hover {
+    scale: 1.1;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
